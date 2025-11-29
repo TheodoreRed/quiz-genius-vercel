@@ -1,4 +1,4 @@
-import { getDatabase } from "@/app/lib/mongo/utils";
+import { getDatabase } from "@/lib/mongo/utils";
 
 export async function GET() {
   const db = await getDatabase("sample_mflix");
